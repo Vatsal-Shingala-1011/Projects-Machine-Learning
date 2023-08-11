@@ -1,0 +1,27 @@
+I'm using machine learning approch to do binary classification of question.
+
+This is very large dataset of row 4,04,290. here i take 30,000 row only
+
+Feature Engineering
+EDA
+Two different approches
+1)Bag of words(BOW)
+2)Creating Own features
+Model Selection 
+RandomForestClassifier 
+XGBClassifier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+It's a Machine learning project where I have analyzed the prices of 1300+ laptops which have the different configurations like RAM, Storage type, Screen size and Processors etc. and predicted the price of Laptop on the basis of given configurations.
+
+
+Feature Engineering 
+EDA
+
+Model Selection
+Linear regression
+Ridge Regression
+Lasso Regression
+Decision Tree
+SVM
+Random Forest
+ExtraTrees
+AdaBoost
+Gradient Boost
+XgBoost
+Voting Regressor(RF,Gradient Boosting,XGB,Extra Trees)
+Stacking(RF,Gradient Boosting)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

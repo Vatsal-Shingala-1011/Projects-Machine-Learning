@@ -1,0 +1,7 @@
+Cleaning the Data
+Feature Engineering
+Model Selection
+Linear Regression
+Lasso Regression
+Decision Tree
+SVM

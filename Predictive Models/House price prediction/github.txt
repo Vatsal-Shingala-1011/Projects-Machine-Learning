@@ -1,0 +1,78 @@
+The objective of this project is to devise a machine learning model that can proficiently forecast the sale prices of residential properties based on an array of features such as geographical location, crime rate, pollution, age, and state of upkeep. 
+
+Find Correlations
+Try to buil new features by combining features
+Train-Test Splitting
+Impute Missing Attributes
+Feature Scalling
+Model Selection using Random searchcv
+saving the model
+testing the model on test data
+
+
+# 1. Title: Boston Housing Data
+
+# 2. Sources:
+#    (a) Origin:  This dataset was taken from the StatLib library which is
+#                 maintained at Carnegie Mellon University.
+#    (b) Creator:  Harrison, D. and Rubinfeld, D.L. 'Hedonic prices and the 
+#                  demand for clean air', J. Environ. Economics & Management,
+#                  vol.5, 81-102, 1978.
+#    (c) Date: July 7, 1993
+
+# 3. Past Usage:
+#    -   Used in Belsley, Kuh & Welsch, 'Regression diagnostics ...', Wiley, 
+#        1980.   N.B. Various transformations are used in the table on
+#        pages 244-261.
+#     -  Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning.
+#        In Proceedings on the Tenth International Conference of Machine 
+#        Learning, 236-243, University of Massachusetts, Amherst. Morgan
+#        Kaufmann.
+
+# 4. Relevant Information:
+
+#    Concerns housing values in suburbs of Boston.
+
+# 5. Number of Instances: 506
+
+# 6. Number of Attributes: 13 continuous attributes (including "class"
+#                          attribute "MEDV"), 1 binary-valued attribute.
+
+# 7. Attribute Information:
+
+#     1. CRIM      per capita crime rate by town
+#                ->CRIM = (Total number of reported crimes) / (Population of the town)
+#     2. ZN        proportion of residential land zoned for lots over 25,000 sq.ft.
+#                ->ZN variable is expressed as a percentage.
+#     3. INDUS     proportion of non-retail business acres per town
+#     4. CHAS      Charles River dummy variable (= 1 if tract bounds 
+#                  river; 0 otherwise)
+#     5. NOX       nitric oxides concentration (parts per 10 million)
+#     6. RM        average number of rooms per dwelling
+#     7. AGE       proportion of owner-occupied units built prior to 1940
+#     8. DIS       weighted distances to five Boston employment centres
+#                ->The "DIS" variable is calculated by considering the distances from each town to five major employment centers 
+#                  in Boston. These employment centers could include business districts, industrial areas, or other places with 
+#                  a high concentration of job opportunities.
+#     9. RAD       index of accessibility to radial highways.
+#                  ->The "RAD" variable is an index that quantifies the proximity of each town to the radial highways. 
+#                  ->Radial highways are major roads or expressways that lead from the city center to the outskirts or neighboring 
+#                    towns and cities in a radial pattern.
+#     10. TAX      full-value property-tax rate per $10,000
+#     11. PTRATIO  pupil-teacher ratio by town
+#     12. B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+#                ->The "B" variable is used as an indicator of the proportion of Black residents in each town. It is based on 
+#                  the "Bk" variable, which represents the percentage of the town's population that identifies as Black or African
+#                  American.
+#                ->The formula 1000(Bk - 0.63)^2 scales and transforms the "Bk" variable to highlight the differences
+#                  in the proportion of Black residents across different towns. The value of "B" will be higher for towns with a 
+#                  higher percentage of Black residents, and it will be lower for towns with a lower percentage of Black residents.
+    
+#     13. LSTAT    % lower status of the population
+#     14. MEDV     Median value of owner-occupied homes in $1000's
+#                ->label
+
+# 8. Missing Attribute Values:  None.
+
+
+

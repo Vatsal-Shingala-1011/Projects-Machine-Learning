@@ -1,0 +1,14 @@
+1.Data Cleaning
+2.Feature Engineering
+2.EDA
+3.Text Preprocessing
+Lower case
+Tokenization
+Removing special characters
+Removing stop words and punctuation
+Stemming
+4.Model bulding
+5.Evaluation 
+6.Improvement
+voting classifier
+stacking
