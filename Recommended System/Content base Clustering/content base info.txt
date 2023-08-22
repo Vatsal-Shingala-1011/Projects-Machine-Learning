@@ -1,0 +1,11 @@
+using K-NearestNeighbors 
+
+# we will display those books which has highest avg rating which has min 200 votes
+
+make data frame with avg rating and num of rating
+after select only those row which has more then 50 number voting
+consider only those rating which voter has done more then 200 vote
+#final_ratings books with 50+ rating and user who has 200+ rating
+
+challenges: how to select book and voting
+solution: i try with different values and finally select correct value

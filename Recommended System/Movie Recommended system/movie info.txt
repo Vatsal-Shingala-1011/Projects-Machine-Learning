@@ -1,0 +1,41 @@
+cosine similarity
+
+peprocess data and combine:
+->take only hindi movies taking 
+->feature selection: genres, id, keywords, title ,overview, cast, crew
+->remove duplicates
+->extractiong features from data
+->combine all features into one feature tages
+->convert lower case
+->Bags of word CountVectorizer with max_features=5000
+->stemming 
+->cosine similarity
+
+
+
+
+challenges:
+->feature selection 
+->max_features = size of vector
+solution: try different values for each hyper-parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
